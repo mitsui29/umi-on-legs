@@ -42,6 +42,8 @@ If you have any questions, please contact [Huy Ha](https://www.cs.columbia.edu/~
 
 **Isaac Lab migration:** [环境安装、requirements、训练与验证](mani-centric-wbc/docs/isaaclab.md)（Go2 + ARX5 reaching，Isaac Lab v1.2.0 / Isaac Sim 4.2）。
 
+**当前阶段：默认 reaching 任务的训练链路已跑通，任务性能仍待验收。** 已验证 4096 环境采样与 PPO 更新、checkpoint 续训、推理及 TorchScript 导出。跟踪精度、策略收敛和与原 Isaac Gym 后端的行为一致性尚未验证；原版 checkpoint 无法直接加载，需在新后端重新训练。详细结果见[验证与边界](mani-centric-wbc/docs/isaaclab.md#验证与边界)。
+
 If you just want to start running some commands while skimming the paper, you should [get started here](mani-centric-wbc/docs/starter.md), which downloads data, checkpoints, and rolls out the WBC.
 The rest of the documentation is focused on setting up real world deployment.
  
