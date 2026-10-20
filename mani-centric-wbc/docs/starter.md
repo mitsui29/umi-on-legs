@@ -1,5 +1,7 @@
 # Starter
 
+For the Isaac Lab backend and its isolated Python environment, follow [Isaac Lab setup and training](isaaclab.md). The instructions below use the original Isaac Gym backend.
+
 ## Set Up
 
 This repository contains multiple submodules.

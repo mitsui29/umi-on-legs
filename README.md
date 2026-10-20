@@ -40,6 +40,8 @@ If you have any questions, please contact [Huy Ha](https://www.cs.columbia.edu/~
 
 **Table of Contents**
 
+**Isaac Lab migration:** [环境安装、requirements、训练与验证](mani-centric-wbc/docs/isaaclab.md)（Go2 + ARX5 reaching，Isaac Lab v1.2.0 / Isaac Sim 4.2）。
+
 If you just want to start running some commands while skimming the paper, you should [get started here](mani-centric-wbc/docs/starter.md), which downloads data, checkpoints, and rolls out the WBC.
 The rest of the documentation is focused on setting up real world deployment.
  

@@ -1,5 +1,7 @@
 # Manipulation-centric Whole-body Controller
 
+The default Go2 + ARX5 reaching task also has an [Isaac Lab training entry point](isaaclab.md), including pinned requirements and checkpoint export. Commands below use the original Isaac Gym backend.
+
 ## Train
 
 To launch WBC training, you'll need to at least specify which device to train and simulate on, as well as the path to the trajectory pickle file

@@ -28,12 +28,11 @@
 #
 # Copyright (c) 2021 ETH Zurich, Nikita Rudin
 
-from typing import Dict, Tuple, Union
+from typing import Dict, Optional, Tuple, Union
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from git import Optional
 
 from legged_gym.rsl_rl.modules import ActorCritic
 from legged_gym.rsl_rl.storage import RolloutStorage
