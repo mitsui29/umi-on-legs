@@ -1,0 +1,17 @@
+# Python 3.10; install Isaac Lab v1.2.0 as described in docs/isaaclab.md.
+--extra-index-url https://pypi.nvidia.com
+isaacsim==4.2.0.2
+isaacsim-extscache-physics==4.2.0.2
+isaacsim-extscache-kit==4.2.0.2
+isaacsim-extscache-kit-sdk==4.2.0.2
+torch==2.4.0
+numpy==1.26.4
+gymnasium==0.29.0
+onnx==1.16.1
+prettytable==3.3.0
+tensordict==0.5.0
+toml==0.10.2
+hidapi==0.14.0.post2
+trimesh==4.4.9
+pyglet==1.5.27
+setuptools==75.1.0
